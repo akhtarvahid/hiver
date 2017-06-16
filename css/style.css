@@ -1,0 +1,173 @@
+.hivIcon{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 28px;
+}
+#contact{
+	font-size:20px ;
+	float: right;
+}
+.userInput{
+	padding: 10px;
+	border-radius: 5px;
+	width: 300px;
+  border:2px solid white;
+  position: absolute;
+  background-color: white;
+  color: grey;
+  top: 93px;
+right: 98px;
+}
+.bg-orange {
+    background-color: #ff851b;
+}
+.jumbotron{
+	background-color: teal;
+	margin-bottom: 0px;
+	padding-top: 20px;
+
+}
+.third{
+	padding: 30px;
+	background-color: 
+}
+.fourth{
+	padding: 10px;
+    background: rgba(128, 128, 128, 0.33);
+}
+.profile_img{
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    padding: 5px;
+}
+span.left {
+    width: 33px;
+    height: 24px;
+    display: inline-block;
+    background: url(../img/quoteicon.png) no-repeat -254px -90px;
+    vertical-align: top;
+    margin-left: -15px;
+}
+span.right {
+    width: 33px;
+    height: 24px;
+    display: inline-block;
+    background: url(../img/quoteicon.png) no-repeat -254px -127px;
+    vertical-align: top;
+    float: right;
+}
+
+.testmoney{
+	padding: 20px;
+	background-color: #f5f5f0;
+}
+.TMpart1{
+display: table-cell;
+    vertical-align: middle;
+    padding-right: 0px;
+}
+.TMpart2{
+	display: table-cell;
+    vertical-align: middle;
+   padding-left: 0px;
+}
+.TMpart2inner{
+margin-left: 16px;
+}
+.headName{
+    font-size: 15px;
+    font-weight: 700;
+}
+.quotesBy{
+	color: #878787;
+    font-size: 15px;
+    /*line-height: 43px;*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 15px;
+}
+
+.footer{
+	padding: 24px 0px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    padding-bottom: 34px;
+}
+.hiverFooter{
+margin-right: 15px;
+    margin-top: 7px;
+    display: block;
+    /*width: 125px;*/
+    float: left;
+    margin: -8px 40px 0px 30px;
+}
+.footerText1{
+	float: left;
+/*    padding-top: 17px;*/
+}
+.copyright-devider{
+	display: block;
+    float: left;
+    margin: -9px 11px;
+}
+.copyright-msg{
+	float: left;
+    text-align: left;
+    display: block;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 100%;
+    cursor: pointer;
+}
+.copyright-msg2{
+	float: right;
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 100%;
+    cursor: pointer;
+}
+.footerText2{
+float: left;
+padding-left: 170px;
+}
+.testimonial_row{
+	display: table;
+}
+.row{
+	margin-right: 0;
+    margin-left: 0;
+}
+.clear{
+	clear: both;
+    height: 0px;
+    overflow: hidden;
+    width: auto;
+    display: block;
+    float: none !important;
+}
+
+.text-center{
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+	.add{
+		width: 50%;
+		float: left;
+		padding: 15px;
+	}
+}
+.hiverFooterIcon{
+	height: 30px;
+	width: 60px;
+	margin-left: 58px;
+}
+.ServiceIcon{
+	height: 60px;
+	width: 60px;
+	color: #25cdc5;
+}

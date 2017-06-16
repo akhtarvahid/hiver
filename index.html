@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>hiver</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body ng-controller="myCtrl">
+
+<div style="position: relative;">
+<div class="jumbotron">
+ <div class="container">
+  <div class="hivIcon">
+    <a href="#" ><img src="img/logo.png" alt="hiver"/></a>
+    <span id="contact" style="color: white;"><i class="fa fa-whatsapp"></i> +91 650-242-9081</span>
+  </div> 
+  
+   <div style="font-size: 30px;color: white">Wow your Customers</div>
+   <div style="color: white">with exceptional customer service. Try Hiver!</div>  
+  </div>
+</div>
+</div>
+
+<div class="testmoney"> 
+ <div class="container">
+   <div class="row">
+   	 <div class="col-xs-8">  	
+   	  <div class="testimonial_row">  
+   	 		<div class="TMpart1">   
+   	 		    <span class="left"></span>
+   	 			<img class="profile_img" src="img/chris.jpg">
+   	 		</div>
+   	 		<div class="TMpart2">
+   	 		   <div class="TMpart2inner">
+   	 		   	<p class="quotesBy">Hiver is hands down the best way for us to collaborate on Gmail. Managing our
+   	 		   	scheduling has never been easier.</p>
+   	 		   	<p style="font-size: 11px;">Christian Leybold-(General Partner, eVentures.vc)<span class="right"></span></p>
+   	 		   </div>
+   	 		</div> 
+   	 		<div class="clear"></div>
+   	 	</div>		
+   	 </div>
+   </div>	
+ </div>
+</div>
+
+
+<div class="userInput">
+ <div  style="">
+ <form role="form" ng-submit="onSubmit()">
+    <label><span class="glyphicon glyphicon-envelope"></span> Enter email</label>
+    <input type="email" class="form-control" ng-model="email" ng-pattern="re"/><br>
+    <label><span class="glyphicon glyphicon-earphone"></span> Enter phone</label>
+    <input type="number" class="form-control input-normal" ng-model="contact" ng-pattern="/^[0-9]{1,7}$/" required/><br>
+    <button type="submit" class="btn btn-primary mb1 bg-orange col-xs-12">GET STARTED FOR FREE</button>
+ </form>
+ </div>
+</div>
+
+<div style="padding: 35px">
+<div class="container">
+  <div class="col-sm-3">
+    <div align="center">
+     <i class="fa fa-refresh fa-4x ServiceIcon" aria-hidden="true"></i>
+     <p class="headName">QUICK SYNC</p>
+    </div>
+    <p style="text-align: center;">Guarantee exceptional support through 
+    phone,email,your website and even 
+    Facebook and Twitter.All from
+    one place!</p>
+  </div>
+
+  <div class="col-sm-3">
+    <div align="center">
+     <img style="height:60px;width:60px;" src="img/management.png" alt="management">
+     <p class="headName">SIMPLE MANAGEMENT</p>
+    </div>
+    <p style="text-align: center;">Reduce support load by helping 
+    customers help themselves to FAQs and
+    discussions on your self-service 
+    portal.</p>
+  </div>
+
+  <div class="col-sm-3">
+    <div align="center">
+     <i class="fa fa-bell fa-4x ServiceIcon" aria-hidden="true"></i>
+     <p class="headName">TASKS AND NOTIFICATIONS</p>
+    </div>
+    <p style="text-align: center;">Get your Sales & Support teams work
+    together,Let go of those syncing issues,
+    integrate'em like never before.</p>
+  </div>
+
+    <div class="col-sm-3">
+    <div align="center">
+     <i class="fa fa-reply fa-4x ServiceIcon" aria-hidden="true"></i>
+     <p class="headName">AUTOMATIC REPLY SYNC</p>
+    </div>
+    <p style="text-align: center;">No hidden changes,no under the belt
+    add ons,your monthly cost with the
+    sprout plan is exactly $0.</p>
+  </div>
+  </div> 
+</div>
+
+ <div class="fourth">
+ 	<div class="container">
+ 		<div class="col-sm-2 text-center add">
+ 			<img style="padding-top: 8px" src="img/change.png" alt width="105px">
+ 		</div>
+ 		<div class="col-sm-2 text-center add">
+ 			<img style="padding-top: 5px" src="img/pinterest.png" alt width="90px">
+ 		</div>
+ 		 <div class="col-sm-2 text-center add">
+ 			<img style="padding-top: 15px" src="img/stemcell.png" alt width="120px">
+ 		 </div>
+ 		 <div class="col-sm-2 text-center add">
+ 			<img style="padding-top: 12px" src="img/conversationInternational.svg" alt width="120px">
+ 		 </div>
+ 	     <div class="col-sm-2 text-center add">
+ 			<img src="img/ookl.png" alt width="105px">
+ 		 </div>
+ 		 <div class="col-sm-2 text-center add">
+ 			<img style="padding-top: 8px" src="img/litmus.png" alt width="95px">
+ 		 </div>
+ 	</div>
+ </div> 
+
+<div class="container-fluid">
+	<div style="padding: 32px 70px;">
+		<a href="#" class="hiverFooter"><img class="hiverFooterIcon" src="img/hiverFooter.png" alt="hiver">
+ 	    </a>
+      	<div class=""> 
+		 	<p class="copyright-msg">&#169; 2016 Copyright Hiver.All Rights Reserved</p>
+		 	<p class="copyright-devider">|</p>
+		 	<a class="copyright-msg">Terms of Service</a>
+		 	<p class="copyright-devider">|</p>
+		 	<a class="copyright-msg">Privacy Policy</a>
+	    </div>
+	    <div class="copyright-msg2">
+	    	<p>Simple, powerful collaboration with Shared Gmail Labels</p>
+	    </div>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
