@@ -22,9 +22,10 @@ right: 98px;
     background-color: #ff851b;
 }
 .jumbotron{
-	background-color: teal;
+	background-color: rgba(44, 163, 125, 0.79);
 	margin-bottom: 0px;
 	padding-top: 20px;
+    padding-bottom: 22px;
 
 }
 .third{
